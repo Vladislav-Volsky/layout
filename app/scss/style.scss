@@ -1,5 +1,5 @@
-@import "vars";
 @import "libs";
+@import "vars";
 @import "fonts";
 @import "global";
 
@@ -91,7 +91,7 @@
 
     &__wrapper {
         display: flex;
-        align-items: flex-end;
+        align-items: center;
     }
 
     &__inner {
@@ -393,11 +393,6 @@
             height: 125px;
             top: -33px;
             right: -386px;
-        }
-    }
-    &__item--last{
-        .questions__item-title::after {
-            top: 107px;
         }
     }
 
